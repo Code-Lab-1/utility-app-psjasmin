@@ -109,7 +109,7 @@ def vendingmachine():
                 money -= price
                 print("\n                          \033[1;35mCash Remaining: $" + str(money) + "\033[0m") #shows available cash
 
-                choose = input("           \033[1;37mDo you want to purchase more items?\033[0m (\033[1;32m1-Yes\033[0m | \033[1;31m2-No):\033[0m  ")
+                choose = input("           \033[1;37mDo you want to purchase more items?\033[0m (\033[1;32m1-Yes\033[0m | \033[1;31m2-No\033[0m):  ")
                 if choose == '2':
                     continueToBuy = False
                     if money != 0:
